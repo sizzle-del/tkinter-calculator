@@ -38,7 +38,7 @@ Check by running:
 python --version
 
 Clone this repository:
-git clone https://github.com/siz-del/tkinter-calculator.git
+git clone https://github.com/sizzle-del/tkinter-calculator.git
 
 Navigate to the project folder:
 cd calculator-tkinter
