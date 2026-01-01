@@ -1,43 +1,102 @@
-# 🧮 Calculator App (Python Tkinter)
+# 🧮 Python GUI Calculator (Tkinter)
 
-A simple GUI-based calculator application built using Python and Tkinter.  
-This project supports basic arithmetic operations and includes proper error handling.
+A beginner-friendly **GUI Calculator Application** built using **Python and Tkinter**, demonstrating core programming concepts, event handling, and exception management.  
+This project was developed as part of academic learning and practical skill building.
 
 ---
 
-## 📌 Features
+## 📌 Project Highlights
 
-- Graphical User Interface using Tkinter
-- Supports basic arithmetic operations:
+- Clean and responsive GUI using Tkinter
+- Implements basic arithmetic operations
+- Real-time input and output display
+- Robust error handling for invalid inputs
+- Beginner-friendly and well-structured code
+
+---
+
+## ⚙️ Features
+
+- Arithmetic operations:
   - Addition (+)
   - Subtraction (−)
   - Multiplication (×)
   - Division (÷)
-- Clear (C) button to reset input
-- Real-time display of input and result
-- Error handling for:
+- Clear (C) button to reset calculations
+- Handles runtime errors gracefully:
   - Division by zero
   - Invalid expressions
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- Python 3
-- Tkinter (Python standard GUI library)
-- Works on Windows, Linux, and macOS
+- **Language:** Python 3
+- **GUI Library:** Tkinter
+- **Paradigm:** Event-driven programming
+- **Platform:** Windows, Linux, macOS
 
 ---
 
 ## 📂 Project Structure
-
 calculator-tkinter/
 ├── calculator.py
 ├── README.md
-└── screenshot.png
+└── calculator-preview.png
 
 ---
 
 ## ▶️ How to Run the Project
+1. Verify Python installation:
+pyton --version
 
-1. Make sure Python 3 is installed:
+2. Clone the repository:
+git clone https://github.com/sizzle-del/tkinter-calculator.git
+
+3. Navigate to the project directory:
+cd tkinter-calculator
+
+4. Run the application:
+
+---
+
+## 🖥️ Application Preview
+
+![Calculator Preview](calculator-preview.png)
+
+---
+
+## 🧠 Concepts Demonstrated
+
+- GUI application development using Tkinter
+- Use of `StringVar` for dynamic UI updates
+- Button event handling and callbacks
+- Exception handling using `try-except`
+- Input validation and error management
+- Basic expression evaluation logic
+
+---
+
+## 🚀 Scope for Enhancement
+
+- Implement decimal point support
+- Add keyboard input functionality
+- Improve UI/UX styling
+- Replace `eval()` with a secure expression parser
+- Extend to a scientific calculator
+
+---
+
+## 👨‍💻 Author
+
+**Akshat Sharma**  
+BCA Student (2nd Year)  
+Python | Tkinter | GUI Development  
+
+---
+
+## 📄 License
+
+This project is developed for educational and internship portfolio purposes.
+
+
